@@ -31,10 +31,10 @@ async def make_carbon(code):
     output_image.name = "carbon.png"
     return output_image
 
-@app.on_message(filters.command("toe", prefixes=["/", "!",]) & ~BANNED_USERS)
+@app.on_message(filters.command("ping", prefixes=["/", "!",]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_VID_URL = "https://telegra.ph/file/4be43ed2aa6872337e9a8.mp4"
+    PING_VID_URL = "https://telegra.ph/file/c1f24fa1a355fd16ab8bd.png"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_video(PING_VID_URL, caption=(captionss))
     await asyncio.sleep(1)
@@ -57,7 +57,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**🏓ᴀɴɴɪᴇ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨\nㅤ  🎸👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴛᴏᴇ🫣💞**"
+    captions = "**🏓ᴊᴇɴɴʏ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨\nㅤ  🎸👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴘɪɴɢ🫣💞**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -70,10 +70,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/BWANDARLOK",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/FReinds_club",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/JARVIS_V_SUPPORT",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/The_Incricible",
             )
         ],
         [
