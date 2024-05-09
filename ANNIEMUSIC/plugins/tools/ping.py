@@ -34,23 +34,23 @@ async def make_carbon(code):
 @app.on_message(filters.command("ping", prefixes=["/", "!",]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_VID_URL = "https://telegra.ph/file/c1f24fa1a355fd16ab8bd.png"
+    PING_VID_URL = "https://telegra.ph/file/153e49e0dd1939c21a38c.jpg"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_video(PING_VID_URL, caption=(captionss))
     await asyncio.sleep(1)
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ sᴛᴀʀᴛᴇᴅ ᴄᴏʟʟᴇᴄᴛɪɴɢ ᴅᴀᴛᴀ.**")
+    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ sᴛᴀʀᴛᴇᴅ ᴄᴏʟʟᴇᴄᴛɪɴɢ ᴅᴀᴛᴀ.**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
+    await response.edit_caption("**🥀ʙᴏᴛ ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴊᴀʀᴠɪs ᴄᴏʀᴇ...**")
+    await response.edit_caption("**🥀ʙᴏᴛ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴜꜱᴇʀʙᴏᴛ ᴄᴏʀᴇ...**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴊᴀʀᴠɪs ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
+    await response.edit_caption("**🥀ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**ᴀɴɴɪᴇ ʜᴀs sᴜᴄᴄᴇssғᴜʟʟʏ ᴀɴᴀʟʏsᴇᴅ sʏsᴛᴇᴍ ᴅᴀᴛᴀ !**")
+    await response.edit_caption("**ʙᴏᴛ ʜᴀs sᴜᴄᴄᴇssғᴜʟʟʏ ᴀɴᴀʟʏsᴇᴅ sʏsᴛᴇᴍ ᴅᴀᴛᴀ !**")
     await asyncio.sleep(2)
-    await response.edit_caption("**ᴊᴀʀᴠɪs 📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**ʙᴏᴛ 📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
     pytgping = await JARVIS.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
