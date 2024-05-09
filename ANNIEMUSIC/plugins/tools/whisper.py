@@ -103,7 +103,7 @@ async def in_help():
         InlineQueryResultArticle(
             title="⦿ Whisper ⦿",
             description=f"@Annie_X_music_bot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**❍ Usage:**\n\n@Annie_X_music_bot (Target Username or ID) (Your Message).\n\n**Example:**\n@Annie_X_music_bot @username I Wanna Phuck You"),
+            input_message_content=InputTextMessageContent(f"**❍ Usage:**\n\n@XDz_MUSIC_BOT (Target Username or ID) (Your Message).\n\n**Example:**\n@XDz_MUSIC_BOT @username I Wanna Phuck You"),
             thumb_url="https://telegra.ph/file/3db82acc00f83151f39d1.jpg",
             reply_markup=switch_btn
         )
