@@ -4,9 +4,9 @@ import random
 import requests
 from ANNIEMUSIC import app 
 
-SUPPORT_CHAT = "BWANDARLOK"
+SUPPORT_CHAT = "Boy_Girl_dp"
 
-@app.on_message(filters.command("wish"))
+@app.on_message(filters.command("mwish"))
 async def wish(_, m):
     if len(m.command) < 2:
         await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥀!")
