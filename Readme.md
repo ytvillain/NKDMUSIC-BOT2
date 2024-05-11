@@ -26,7 +26,7 @@
 <details>
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
-<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/doraemon890/ANNIE-X-MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ytrolex07/NKD_music-Bot"><img align="center" alt="Heroku" width="92px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 </details>
 
 
