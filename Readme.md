@@ -21,13 +21,8 @@
 </details>
 
 <h2 align="center">
-    ─「 🦋ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ💗 」─
-</h2>
-<details>
-<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
-<br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ytrolex07/NKD_music-Bot"><img align="center" alt="Heroku" width="92px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
-</details>
+    <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Ytrolex07/NKD_music-Bot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Ytrolex07/NKD_music-Bot"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
 
 
 <h2 align="center">
