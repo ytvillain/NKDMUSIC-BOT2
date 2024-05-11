@@ -31,13 +31,13 @@ async def start(_, msg):
             ],
      
             [
-             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/greatperson_xd"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Incricible"),
+             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/yt_farman"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/NKD_Korean_Drama_Hindi"),
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Freinds_club"),          
-             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://t.me/Boy_Girl_dp"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/NKD_Korean_Group"),          
+             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://t.me/NKD_Korean_Group"),
              ],
      
               ]
@@ -45,7 +45,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/707727fe65fa1c76ca9de.jpg",
+        photo="https://graph.org/file/8ed2f2f67281550cf8be3.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
