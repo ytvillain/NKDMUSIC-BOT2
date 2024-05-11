@@ -28,13 +28,13 @@ OWNER_ID = int(getenv("OWNER_ID", 5730490876))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/greatpersonxd/jaan")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ytrolex07/NKD_music-Bot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricible")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Freinds_club")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NKD_Korean_group")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NKD_Korean_Drama_Hindi")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
