@@ -28,7 +28,7 @@ OWNER_ID = int(getenv("OWNER_ID", 5730490876))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ytrolex07/NKD_music-Bot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ytvillain/NKDMUSIC-BOT2")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
